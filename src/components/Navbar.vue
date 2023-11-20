@@ -11,8 +11,17 @@
         <div>
           <ul class="navbar-nav me-auto">
             <li>
-              <router-link :to="{ name: 'Home' }" class="btn text-success lighten-30 selectable text-uppercase">
+              <router-link :to="{ name: 'Home' }" class="btn selectable text-uppercase">
                 Home
+              </router-link>
+              <router-link :to="{ name: 'Home' }" class="btn selectable text-uppercase">
+                Hours/Locations
+              </router-link>
+              <router-link :to="{ name: 'Home' }" class="btn selectable text-uppercase">
+                Menus
+              </router-link>
+              <router-link :to="{ name: 'Home' }" class="btn selectable text-uppercase">
+                About Us
               </router-link>
               <!-- <router-link :to="{ name: 'About' }" class="btn text-success lighten-30 selectable text-uppercase">
                 About
@@ -46,7 +55,7 @@ a:hover {
 }
 
 .navbar-nav .router-link-exact-active {
-  border-bottom: 2px solid var(--bs-success);
+  /* border-bottom: 2px solid var(--bs-success); */
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
