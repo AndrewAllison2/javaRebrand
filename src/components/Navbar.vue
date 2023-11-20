@@ -1,9 +1,9 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 d-flex justify-content-between align-items-center">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 d-flex justify-content-between align-items-center" style="height: 10em;">
     <div class="">
         <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
           <div class="d-flex flex-column align-items-center">
-            <img alt="logo" src="../assets/img/cw-logo.png" height="45" />
+            <img alt="logo" src="https://www.javaidaho.com/uploads/5/9/9/9/59994583/java-sun-logo.png" class="img-fluid java-logo" />
           </div>
         </router-link>
       </div>
@@ -49,6 +49,12 @@ a:hover {
   border-bottom: 2px solid var(--bs-success);
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+
+.java-logo{
+  height: 7em;
+  
+  margin-left: 3em;
 }
 
 @media screen and (min-width: 768px) {

@@ -1,7 +1,9 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      Java
+      <div class="col-12 px-0">
+        <img class="img-fluid hero-img px-0" src="https://t4.ftcdn.net/jpg/02/34/63/07/360_F_234630793_eHKQucxaXftnWrecTJFITmD4cr3TlUgG.jpg" alt="Coffee Img">
+      </div>
     </div>
   </div>
 
@@ -16,23 +18,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.home {
-  display: grid;
-  height: 80vh;
-  place-content: center;
-  text-align: center;
-  user-select: none;
-
-  .home-card {
-    width: 50vw;
-
-    >img {
-      height: 200px;
-      max-width: 200px;
-      width: 100%;
-      object-fit: contain;
-      object-position: center;
-    }
-  }
+.hero-img{
+  width: 100%;
+  height: 20em;
+  object-fit: cover;
 }
 </style>
