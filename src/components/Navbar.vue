@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3 d-flex justify-content-between align-items-center" style="height: 10em;">
+  <nav class="navbar navbar-expand-lg navbar-white bg-white px-3 d-flex justify-content-between align-items-center" style="height: 10em;">
     <div class="">
         <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
           <div class="d-flex flex-column align-items-center">
