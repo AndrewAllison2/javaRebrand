@@ -27,6 +27,16 @@
       </div>
     </div>
 
+    <div class="row">
+      <div class="col-12 px-0">
+        <div class="event-section">
+          <div>
+            <h1 class="text-warning">Check out our upcoming events!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
   </div>
 
@@ -75,5 +85,13 @@ export default {
   border-radius: 1px solid #946130;
   background-color: white;
   color: #946130;
+}
+
+.event-section{
+  background-color: #323d3f;
+  height: 35vh;
+  width: 100%;
+  position: relative;
+  bottom: -20em;
 }
 </style>
