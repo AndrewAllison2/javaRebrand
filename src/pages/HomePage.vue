@@ -13,10 +13,21 @@
 
     <div class="row">
       <div class="col-7">
-        
+        <div class="menu-card text-end">
+          <h1 class="text-white ps-3">Have you tired our cosmic creations?</h1>
+          <div class="text-end mt-5">
+            <button class="btn menu-btn">MENU</button>
+          </div>
+        </div>
       </div>
-      <div class="col-5"></div>
+      <div class="col-5">
+        <div >
+          <img class="img-fluid coffee-img" src="https://neurosciencenews.com/files/2023/06/coffee-brain-caffeine-neuroscincces.jpg" alt="Cosmic Creations">
+        </div>
+      </div>
     </div>
+
+
   </div>
 
 </template>
@@ -40,5 +51,29 @@ export default {
   position: relative;
   top: 5em;
   left: 38em;
+  width: 25em;
+}
+
+.menu-card{
+  position: relative;
+  top: 16em;
+  left: 7em;
+  background-color: #946130;
+  height: 20em;
+  width: 40em;
+  padding: 5em;
+}
+.coffee-img{
+  position: relative;
+  top: 16em;
+  left: -1em;
+  height: 20em;
+  width: 20em;
+  object-fit: cover;
+}
+.menu-btn{
+  border-radius: 1px solid #946130;
+  background-color: white;
+  color: #946130;
 }
 </style>
