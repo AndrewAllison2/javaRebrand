@@ -11,18 +11,18 @@
         <div>
           <ul class="navbar-nav me-auto">
             <li>
-              <router-link :to="{ name: 'Home' }" class="btn selectable text-uppercase">
+              <div class="btn selectable text-uppercase" style="color: #946130;">
                 Home
-              </router-link>
-              <router-link :to="{ name: 'Home' }" class="btn selectable text-uppercase">
+              </div>
+              <div class="btn selectable text-uppercase" style="color: #946130;">
                 Hours/Locations
-              </router-link>
-              <router-link :to="{ name: 'Home' }" class="btn selectable text-uppercase">
+              </div>
+              <div class="btn selectable text-uppercase" style="color: #946130;">
                 Menus
-              </router-link>
-              <router-link :to="{ name: 'Home' }" class="btn selectable text-uppercase">
+              </div>
+              <div class="btn selectable text-uppercase" style="color: #946130;">
                 About Us
-              </router-link>
+              </div>
               <!-- <router-link :to="{ name: 'About' }" class="btn text-success lighten-30 selectable text-uppercase">
                 About
               </router-link> -->
