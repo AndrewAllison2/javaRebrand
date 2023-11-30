@@ -18,7 +18,7 @@
           <div class="menu-card text-end">
             <h1 class="menu-text ps-3">Have you tired our cosmic creations?</h1>
             <div class="text-end mt-5">
-              <button class="btn menu-btn">DRINK MENU</button>
+              <button class="btn menu-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">DRINK MENU</button>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
       </div>
 
       <div class="row" style="background-color: #283e5e;">
-        
+
       
       </div>
 
