@@ -2,8 +2,9 @@
   <nav class="navbar navbar-expand-lg navbar-white px-3 d-flex justify-content-between align-items-center" style="height: 10em;">
     <div class="">
         <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
-          <div class="d-flex flex-column align-items-center">
+          <div class="d-flex align-items-center">
             <img alt="logo" src="../assets/img/JavaLogo.png" class="img-fluid java-logo" />
+            <h1 class="nav-text ms-4">Wake Up and Live.</h1>
           </div>
         </router-link>
       </div>
@@ -64,6 +65,11 @@ a:hover {
   height: 7em;
   
   margin-left: 3em;
+}
+.nav-text{
+  color: #da9a5b;
+  text-shadow: 1px 1px #cea783;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .navbar{
