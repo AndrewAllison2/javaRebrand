@@ -67,6 +67,15 @@
             </div>
           </div>
         </div>
+
+        <div class="col-7">
+          <div class="text-center">
+            <button class="btn" style="font-family: 'Fjalla One', sans-serif; margin-top: 12em; font-size:xx-large; color: #283E5E; background-color: #c38e59;" >MERCH</button>
+          </div>
+          <div class="text-center mt-5" style="color: #c38e59; width: 70%; margin: auto;">
+            <h5>You can enjoy the rich flavors of our brews in you own kitchen, rock some gnarly Java swag , or take home your very own handmade coffe mug! </h5>
+          </div>
+        </div>
       
       </div>
 
