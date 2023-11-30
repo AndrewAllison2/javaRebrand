@@ -34,7 +34,7 @@
           <div class="event-section">
             <div class="d-flex justify-content-center align-items-center">
               <img style="height: 4em;" src="../assets/img/BeanImg.png" alt="*">
-              <h1 class="events-heading text-center">Check out our upcoming events!</h1>
+              <h1 class="events-heading text-center">See What's Going On At Your Local Java:</h1>
               <img style="height: 4em;" src="../assets/img/BeanImg.png" alt="*">
             </div>
             

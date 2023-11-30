@@ -11,7 +11,16 @@
       
     </template>
     <template #body>
+      <MenuComponent />
+    </template>
+  </ModalComponent>
 
+  <ModalComponent id="tarotModal">
+    <template #header>
+      
+    </template>
+    <template #body>
+      Tarot
     </template>
   </ModalComponent>
 

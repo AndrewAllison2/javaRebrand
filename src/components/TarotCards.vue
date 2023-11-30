@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
-        <div class="card selectable">
+        <div class="card selectable" data-bs-toggle="modal" data-bs-target="#tarotModal">
           <div class="">
             <img class="img-fluid tarot-img" src="../assets/img/TarotReading.png" alt="">
           </div>
