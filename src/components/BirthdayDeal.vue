@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
-        <div class="card">
+        <div class="card selectable">
           <div class="">
             <img class="img-fluid deal-img" src="../assets/img/BirthdayDeal.png" alt="">
           </div>

@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12">
-        <div class="card">
+        <div class="card selectable">
           <div class="">
             <img class="img-fluid tarot-img" src="../assets/img/TarotReading.png" alt="">
           </div>
