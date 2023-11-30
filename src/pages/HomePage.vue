@@ -6,9 +6,9 @@
         <div class="col-12 px-0">
           <img class="img-fluid hero-img px-0" src="https://t4.ftcdn.net/jpg/02/34/63/07/360_F_234630793_eHKQucxaXftnWrecTJFITmD4cr3TlUgG.jpg" alt="Coffee Img">
   
-          <div class="text-white hero-text">
+          <div class="text-center hero-text">
             <h1 class="fs-2">JAVA COFFEE & CAFE</h1>
-            <h1 class="text-warning mt-4">Rise and Grind.</h1>
+            <h1 class="mt-4">Bringing the power of the cosmos to your cup!</h1>
           </div>
         </div>
       </div>
@@ -16,7 +16,7 @@
       <div class="row">
         <div class="col-7">
           <div class="menu-card text-end">
-            <h1 class="text-white ps-3">Have you tired our cosmic creations?</h1>
+            <h1 class="menu-text ps-3">Have you tired our cosmic creations?</h1>
             <div class="text-end mt-5">
               <button class="btn menu-btn">MENU</button>
             </div>
@@ -63,8 +63,10 @@ export default {
 .hero-text{
   position: relative;
   top: 5em;
-  left: 38em;
-  width: 25em;
+  left: 34em;
+  width: 30em;
+  color: #283E5E;
+  text-shadow: 2px 2px #c38e59;
 }
 
 .menu-card{
@@ -75,6 +77,10 @@ export default {
   height: 20em;
   width: 40em;
   padding: 5em;
+}
+.menu-text{
+  color: white;
+  text-shadow: 4px 4px #061930;
 }
 .coffee-img{
   position: relative;
