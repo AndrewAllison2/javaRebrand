@@ -10,7 +10,7 @@
       <div>
         <div>
           <ul class="navbar-nav me-auto">
-            <li>
+            <li class="nav-menu">
               <div class="btn selectable text-uppercase" style="color: #c38e59;">
                 Home
               </div>
@@ -68,6 +68,9 @@ a:hover {
 
 .navbar{
   background-color: #283e5e;;
+}
+.nav-menu{
+  font-family: 'Fjalla One', sans-serif;
 }
 
 @media screen and (min-width: 768px) {
