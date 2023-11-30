@@ -32,10 +32,16 @@
       <div class="row" style="background-color: #283e5e; height: 100vh;">
         <div class="col-12 px-0">
           <div class="event-section">
-            <div>
-              <img src="../assets/img/BeanImg.png" alt="*">
+            <div class="d-flex justify-content-center align-items-center">
+              <img style="height: 4em;" src="../assets/img/BeanImg.png" alt="*">
               <h1 class="events-heading text-center">Check out our upcoming events!</h1>
-              <img src="../assets/img/BeanImg.png" alt="*">
+              <img style="height: 4em;" src="../assets/img/BeanImg.png" alt="*">
+            </div>
+            
+            <div class="row">
+              <div class="col-4">
+                <TarotCards />
+              </div>
             </div>
           </div>
         </div>
@@ -104,7 +110,7 @@ export default {
 
 .event-section{
   background-color: #E0B399;
-  height: 35vh;
+  height: 75vh;
   width: 100%;
   position: relative;
   bottom: -20em;
