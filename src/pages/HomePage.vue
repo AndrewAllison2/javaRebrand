@@ -54,8 +54,19 @@
 
       </div>
 
-      <div class="row" style="background-color: #283e5e;">
-
+      <div class="row mb-5" style="background-color: #283e5e;">
+        <div class="col-5 mb-5">
+          <div>
+            <div>
+              <img class="tShirtMerch img-fluid" src="../assets/img/T-Shirt.png" alt="T-Shirt">
+              <img class="toteMerch img-fluid" src="../assets/img/Tote.png" alt="Tote Bag">
+            </div>
+            <div>
+              <img class="img-fluid cupMerch" src="../assets/img/TogoCup.png" alt="Cups">
+              <img class="img-fluid mugsMerch" src="../assets/img/JavaMugs.png" alt="Mugs">
+            </div>
+          </div>
+        </div>
       
       </div>
 
@@ -130,5 +141,29 @@ export default {
   color: white;
   text-shadow: 2px 2px #283E5E;
   padding: 1em;
+}
+.tShirtMerch{
+  height: 22em;
+  width: 16em;
+  object-position:center;
+}
+.toteMerch{
+  height: 22em;
+  width: 16em;
+  margin-left: 9px;
+  object-fit: cover;
+}
+.cupMerch{
+  height: 17em;
+  width: 16em;
+  margin-top: 9px;
+  object-fit: cover;
+}
+.mugsMerch{
+  height: 17em;
+  width: 16em;
+  margin-left: 9px;
+  margin-top: 9px;
+  object-fit: cover;
 }
 </style>
