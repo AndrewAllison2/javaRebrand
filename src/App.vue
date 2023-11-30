@@ -5,6 +5,9 @@
   <main>
     <router-view />
   </main>
+  <!-- <footer>
+    <p class="mb-5 pb-1 fw-bold">Powered by Altrnt Solutions</p>
+  </footer> -->
 
   <ModalComponent id="exampleModal">
     <template #header>

@@ -76,8 +76,19 @@
             <h5 style="font-family: 'Cantarell', sans-serif;">You can enjoy the rich flavors of our brews in you own kitchen, rock some gnarly Java swag , or take home your very own handmade coffe mug! </h5>
           </div>
         </div>
-      
       </div>
+
+              <div class="row mt-5 mb-5" style="background-color:#c38e59;">
+          <div class="col-10 m-auto text-center mt-4" style="color:#283E5E;">
+            <h1 style="font-family: 'Fjalla One', sans-serif;">STAY CONNECTED WITH YOUR FAVORITE COFFEE</h1>
+
+            <div>
+              <i class="mdi mdi-facebook fs-1 me-4"></i>
+              <i class="mdi mdi-instagram fs-1 me-4"></i>
+              <i class="mdi mdi-twitter fs-1"></i>
+            </div>
+          </div>
+        </div>
 
 
 
