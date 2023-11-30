@@ -29,14 +29,17 @@
         </div>
       </div>
   
-      <div class="row">
+      <div class="row" style="background-color: #283e5e; height: 100vh;">
         <div class="col-12 px-0">
           <div class="event-section">
             <div>
-              <h1 class="text-warning">Check out our upcoming events!</h1>
+              <img src="../assets/img/BeanImg.png" alt="*">
+              <h1 class="events-heading text-center">Check out our upcoming events!</h1>
+              <img src="../assets/img/BeanImg.png" alt="*">
             </div>
           </div>
         </div>
+
       </div>
 
 
@@ -100,10 +103,15 @@ export default {
 }
 
 .event-section{
-  background-color: #323d3f;
+  background-color: #E0B399;
   height: 35vh;
   width: 100%;
   position: relative;
   bottom: -20em;
+}
+.events-heading{
+  color: white;
+  text-shadow: 2px 2px #283E5E;
+  padding: 1em;
 }
 </style>
