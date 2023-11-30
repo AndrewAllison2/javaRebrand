@@ -55,8 +55,8 @@
       </div>
 
       <div class="row mb-5" style="background-color: #283e5e;">
-        <div class="col-5 mb-5">
-          <div>
+        <div class="col-5 mb-5 mt-5">
+          <div class="img-block">
             <div>
               <img class="tShirtMerch img-fluid" src="../assets/img/T-Shirt.png" alt="T-Shirt">
               <img class="toteMerch img-fluid" src="../assets/img/Tote.png" alt="Tote Bag">
@@ -143,12 +143,12 @@ export default {
   padding: 1em;
 }
 .tShirtMerch{
-  height: 22em;
+  height: 17em;
   width: 16em;
   object-position:center;
 }
 .toteMerch{
-  height: 22em;
+  height: 17em;
   width: 16em;
   margin-left: 9px;
   object-fit: cover;
@@ -165,5 +165,9 @@ export default {
   margin-left: 9px;
   margin-top: 9px;
   object-fit: cover;
+}
+.img-block{
+  margin-top: 15em;
+  margin-left: 5em;
 }
 </style>
