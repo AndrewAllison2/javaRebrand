@@ -38,9 +38,15 @@
               <img style="height: 4em;" src="../assets/img/BeanImg.png" alt="*">
             </div>
             
-            <div class="row">
+            <div class="row me-0">
               <div class="col-4">
-                <TarotCards />
+                <TarotCards/>
+              </div>
+              <div class="col-4">
+                <BirthdayDeal />
+              </div>
+              <div class="col-4">
+                <ZodiacNight />
               </div>
             </div>
           </div>
