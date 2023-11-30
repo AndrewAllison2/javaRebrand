@@ -67,6 +67,7 @@ export default {
   width: 30em;
   color: #283E5E;
   text-shadow: 2px 2px #c38e59;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .menu-card{
@@ -81,6 +82,7 @@ export default {
 .menu-text{
   color: white;
   text-shadow: 4px 4px #061930;
+  font-family: 'Fjalla One', sans-serif;
 }
 .coffee-img{
   position: relative;
@@ -94,6 +96,7 @@ export default {
   border-radius: 1px solid #c38e59;
   background-color: white;
   color: #c38e59;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .event-section{
