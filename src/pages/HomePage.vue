@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid" style="background-color: #283e5e;">
 
 
       <div class="row">
@@ -71,7 +71,7 @@ export default {
   position: relative;
   top: 16em;
   left: 7em;
-  background-color: #946130;
+  background-color: #c38e59;
   height: 20em;
   width: 40em;
   padding: 5em;
@@ -85,9 +85,9 @@ export default {
   object-fit: cover;
 }
 .menu-btn{
-  border-radius: 1px solid #946130;
+  border-radius: 1px solid #c38e59;
   background-color: white;
-  color: #946130;
+  color: #c38e59;
 }
 
 .event-section{
