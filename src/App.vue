@@ -20,7 +20,7 @@
       
     </template>
     <template #body>
-      Tarot
+      <TarotInfo />
     </template>
   </ModalComponent>
 
