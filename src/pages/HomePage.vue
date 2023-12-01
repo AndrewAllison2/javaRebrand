@@ -38,7 +38,7 @@
               <img style="height: 4em;" src="../assets/img/BeanImg.png" alt="*">
             </div>
             
-            <div class="row me-0 m-auto">
+            <div class="row me-0 m-auto d-flex">
               <div class="col-4">
                 <TarotCards/>
               </div>

@@ -1,8 +1,8 @@
 <template>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-12">
-        <div class="card selectable">
+      <div class="col-12 p-0">
+        <div class="card selectable m-auto">
           <div class="">
             <img class="img-fluid deal-img" src="../assets/img/BirthdayDeal.png" alt="">
           </div>
@@ -30,7 +30,7 @@ export default {
   object-fit: cover;
 }
 .card{
-  width: fit-content;
+  width:fit-content;
   padding: 10px;
   background-color: #283E5E;
 }
