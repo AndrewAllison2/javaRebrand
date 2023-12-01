@@ -83,7 +83,7 @@
             <h1 style="font-family: 'Fjalla One', sans-serif;">STAY CONNECTED WITH YOUR FAVORITE COFFEE</h1>
 
             <div>
-              <i class="mdi mdi-facebook fs-1 me-4"></i>
+              <SvgIcon class="mdi mdi-facebook fs-1 me-4"></SvgIcon>
               <i class="mdi mdi-instagram fs-1 me-4"></i>
               <i class="mdi mdi-twitter fs-1"></i>
             </div>
@@ -99,7 +99,9 @@
 <script>
 import Pop from "../utils/Pop.js";
 import SvgIcon from '@jamescoyle/vue-icon';
-import { mdiAccount } from '@mdi/js';
+import {mdiFacebook} from '@mdi/js'
+import {mdiInstagram} from '@mdi/js'
+import {mdiTwitter} from '@mdi/js'
 
 export default {
   setup() {
