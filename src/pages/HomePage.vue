@@ -77,7 +77,7 @@
           </div>
         </div>
       </div>
-
+<!-- 
               <div class="row mt-5 mb-5" style="background-color:#c38e59;">
           <div class="col-10 m-auto text-center mt-4" style="color:#283E5E;">
             <h1 style="font-family: 'Fjalla One', sans-serif;">STAY CONNECTED WITH YOUR FAVORITE COFFEE</h1>
@@ -88,7 +88,7 @@
               <i class="mdi mdi-twitter fs-1"></i>
             </div>
           </div>
-        </div>
+        </div> -->
 
 
 
