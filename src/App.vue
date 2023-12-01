@@ -29,6 +29,24 @@
     </template>
   </ModalComponent>
 
+  <ModalComponent id="zodiacModal">
+    <template #header>
+      
+    </template>
+    <template #body>
+      <ZodiacInfo />
+    </template>
+  </ModalComponent>
+
+  <ModalComponent id="dealModal">
+    <template #header>
+      
+    </template>
+    <template #body>
+      <BirthdayInfo />
+    </template>
+  </ModalComponent>
+
 </template>
 
 <script>

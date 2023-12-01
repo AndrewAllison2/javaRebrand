@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 p-0">
-        <div class="card selectable m-auto">
+        <div class="card selectable m-auto" data-bs-toggle="modal" data-bs-target="#dealModal">
           <div class="">
             <img class="img-fluid deal-img" src="../assets/img/BirthdayDeal.png" alt="">
           </div>
