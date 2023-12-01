@@ -5,9 +5,11 @@
   <main>
     <router-view />
   </main>
-  <!-- <footer>
-    <p class="mb-5 pb-1 fw-bold">Powered by Altrnt Solutions</p>
-  </footer> -->
+  <footer>
+    <div class="text-center">
+      <h5 class="mb-4 pb-1 fw-bold">Designed by Ayden Lindsay & Fay Allison</h5>
+    </div>
+  </footer>
 
   <ModalComponent id="exampleModal">
     <template #header>
