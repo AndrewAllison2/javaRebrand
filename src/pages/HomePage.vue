@@ -82,11 +82,11 @@
           <div class="col-10 m-auto text-center mt-4" style="color:#283E5E;">
             <h1 style="font-family: 'Fjalla One', sans-serif;">STAY CONNECTED WITH YOUR FAVORITE COFFEE</h1>
 
-            <div>
+            <!-- <div>
               <i class="mdi mdi-facebook fs-1 me-4"></i>
               <i class="mdi mdi-instagram fs-1 me-4"></i>
               <i class="mdi mdi-twitter fs-1"></i>
-            </div>
+            </div> -->
           </div>
         </div>
 
